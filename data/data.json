@@ -1,8 +1,8 @@
 [
     {
       "id":"1",
-       "type": "LOGO",
-       "typeSK": "LOGO",
+       "type": "BRANDS",
+       "typeSK": "BRANDS",
        "title": "SAO",
        "description": "<p>Návrh loga bol vypracovaný aby reprezentoval vietnamskú reštauráciu. Klient si žiadal len jeden grafický návrh a podmienkou bolo aby logo pôsobilo minimalisticky, moderne ale so znakmi tradičnosti. Názov Sao pochádza z vietnamčiny a znamená „hviezda“. Tento názov som vybrala z niekoľkých dôvodov. Prvým je originalita názvu a jeho ľahká výslovnosť a tým pádom dobrá zapamätateľnosť. Druhým je jeho prepojenie s Vietnamom a vietnamskou kultúrou, nakoľko je to práve hviezda, ktorá je symbolom Vietnamu a nachádza sa aj na ich vlajke. Tretím dôvodom je akýsi symbolický význam ktorý reflektuje, že táto reštaurácie ja hviezdou medzi jej konkurenciou.</p> <p>Logo nesie aj skrytú ilustráciu misky s paličkami ktorá má spotrebiteľovi napovedať, že sa jedná o reštauráciu.</p>",
        "thumbnail": "assets/work/sao/1.5-sao-logo.png",
@@ -67,8 +67,8 @@
     },
     {
       "id":"2",
-       "type": "LOGO",
-       "typeSK": "LOGO",
+       "type": "BRANDS",
+       "typeSK": "BRANDS",
        "title": "Good Drops",
        "description": "<p>Toto logo vzniklo pre spoločnosť, ktorá sa zaoberá výrobou a predajom filtrov na vodu v domácnostiach ale aj exteriéroch. Logo ktoré bolo nakoniec klientom zvolené vzniklo v spolupráci s doc. PhDr. Milanom Banyárom. Klient si žiadal viaceré návrhy loga a podmienkou bolo aby v názve „good drops“ boli zakomponované prvky vody. Logo malo pôsobiť minimalisticky a moderne.</p>",
        "thumbnail": "assets/work/good_drops/1.1-gd-logo.png",
@@ -114,8 +114,8 @@
     },
     {
       "id":"3",
-      "type": "LOGO",
-       "typeSK": "LOGO",
+      "type": "BRANDS",
+       "typeSK": "BRANDS",
        "title": "Dazzle",
        "description": "<p>Toto logo som vytvorila pre klienta, ktorého cieľom podnikania je predaj zberateľských produktov 3 známych značiek. Pokémon, Hotwheels a Funko POP. Klient si žiadal dva návrhy loga a podmienkou bolo aby logo bolo minimalistické a moderné. Názov „Dazzle“ už bol zadaný a mojou úlohou bolo vymyslieť pre tento názov grafické spodobnenie. Keďže klient obchoduje hlavne so sortimentom značky Pokémon a zameriava sa primárne na predaj zberateľských kariet, rozhodla som sa do loga zakomponovať nenápadne symbol ktorý by to reprezentoval. Spojením písmen z a z vznikol obrys karty ktorá jednoducho a účelne doplnila logo značky.</p>",
        "thumbnail": "assets/work/dazzle/dazzle-logo-3.png",
@@ -205,9 +205,131 @@
        ]
     },
     {
+      "id":"16",
+       "type": "BRANDS",
+       "typeSK": "BRANDS",
+       "title": "Mori",
+       "description": "<p>Návrh loga bol vypracovaný aby reprezentoval spoločnosť so zameraním na predaj ručne vyrábaných diorám. Hlavné logo pozostáva z dvoch slov “Mori”, ktoré tvorí názov spoločnosti a slova “crafts” ktoré naznačuje druh podnikateľskej činnosti. Logo je typografické, inšpirované ťahmi japonského štetca. Symbolizuje ručnú tvorbu a formu umenia.</br> Logo je moderné, jednoduché a jedinečné. Nesie prvky prírody a dotvára tak obraz o spoločnosti. Celkova vizuálna identity bola vytvorená tak aby reprezentovala lesné prostredie a prírodu.</p>",
+       "thumbnail": "assets/work/mori/2.jpg",
+       "contain": "0",
+       "template": "3",
+       "clientInfo": {
+          "name": "Laura Augustínová",
+          "business": "Výroba a predaj diorám",
+          "assignment": "Vytvorenie funkčného loga a dizajn manuálu pre začínajúcu spoločnosť spolu so všetkými potrebnými materiálmi",
+          "deliverables": "Dizajn manuál, návrh loga, návrh príspevkov na sociálne siete, informatívna grafika, návrh webovej stránky, návrh vizitiek a návrh balenia",
+          "website": ""
+       },
+       "attachments": [
+          {
+             "name": "Design manual",
+             "nameSK": "Dizajn manuál",
+             "src": "../assets/work/mori/dm/Dizajnmanuál.pdf"
+          }
+       ],
+       "sections": [
+          {
+             "title": "Logo",
+             "imgs": [
+                { "src": "../assets/work/mori/1.jpg", "caption": "" },
+                { "src": "../assets/work/mori/2.jpg", "caption": "" },
+                { "src": "../assets/work/mori/3.jpg", "caption": "" }
+             ]
+          },
+          {
+             "title": "Web dizajn",
+             "imgs": [
+                { "src": "../assets/work/mori/web dizajn/web dizajn mori.jpg", "caption": "" }
+             ]
+          },
+          {
+             "title": "Vizitky",
+             "imgs": [
+                { "src": "../assets/work/mori/vizitky/vizitky mori.jpg", "caption": "" }
+             ]
+          },
+          {
+             "title": "Sociálne siete",
+             "imgs": [
+                { "src": "../assets/work/mori/sociálne siete/1.jpg", "caption": "" },
+                { "src": "../assets/work/mori/sociálne siete/2.jpg", "caption": "" },
+                { "src": "../assets/work/mori/sociálne siete/návrh soc. sieti pinterest.jpg", "caption": "" },
+                { "src": "../assets/work/mori/sociálne siete/Soc. siete - FB.jpg", "caption": "" }
+             ]
+          },
+          {
+             "title": "Brand vizual",
+             "imgs": [
+                { "src": "../assets/work/mori/brand vizual/manuál značky.jpg", "caption": "" },
+                { "src": "../assets/work/mori/brand vizual/manuál značky(1).jpg", "caption": "" }
+             ]
+          }
+       ]
+    },
+    {
+      "id":"17",
+       "type": "BRANDS",
+       "typeSK": "BRANDS",
+       "title": "Label Lab",
+       "description": "<p>Návrh loga bol vypracovaný aby reprezentoval spoločnosť so zameraním na predaj  digitálnych nálepiek. Klient si žiadal len jeden grafický návrh a podmienkou bolo aby logo  pôsobilo minimalisticky, moderne ale nadčasovo a hravo. Názov Label Lab bol odvodený od  dvoch anglických slov ako odkaz na činnosť podnikania. Tento názov som zvolila  z viacerých dôvodov. Prvým je originalita názvu a jeho ľahká výslovnosť a tým pádom dobrá  zapamätateľnosť. Druhým je jeho hravosť a jedinečnosť. Nakoľko spoločnosť chcela vytvárať a predávať široké portfólio digitálnych produktov, bol zvolený názov ktorý sa nespája iba s jedným typom produktu. </br>Logo je kombinované a obsahuje grafické prvky pripomínajúce chemické prvky ako odkaz na časť názvu „lab“</p>",
+       "thumbnail": "../assets/work/label_lab/profilovka.jpg",
+       "contain": "0",
+       "template": "2",
+       "clientInfo": {
+          "name": "Sona Porsok",
+          "business": "Nálepky",
+          "assignment": "Vytvorenie funkčného loga a dizajn manuálu pre začínajúcu spoločnosť, vytvorenie produktu",
+          "deliverables": "Dizajn manuál, návrh loga, návrh príspevkov na sociálne siete, informatívna grafika",
+          "website": ""
+       },
+       "attachments": [],
+       "sections": [
+          {
+             "title": "Profil obchodu",
+             "imgs": [
+                { "src": "../assets/work/label_lab/profilovka.jpg", "caption": "" },
+                { "src": "../assets/work/label_lab/shop pictures/1.jpg", "caption": "" },
+                { "src": "../assets/work/label_lab/shop pictures/2.jpg", "caption": "" },
+                { "src": "../assets/work/label_lab/shop pictures/3.jpg", "caption": "" }
+             ]
+          },
+          {
+             "title": "Listing dizajn",
+             "imgs": [
+                { "src": "../assets/work/label_lab/label lab listings design 5/1.2.jpg", "caption": "" },
+                { "src": "../assets/work/label_lab/label lab listings design 5/1.3.jpg", "caption": "" },
+                { "src": "../assets/work/label_lab/label lab listings design 5/1.jpg", "caption": "" },
+                { "src": "../assets/work/label_lab/label lab listings design 5/2.2.jpg", "caption": "" },
+                { "src": "../assets/work/label_lab/label lab listings design 5/2.3.jpg", "caption": "" },
+                { "src": "../assets/work/label_lab/label lab listings design 5/2.jpg", "caption": "" },
+                { "src": "../assets/work/label_lab/label lab listings design 5/3.jpg", "caption": "" },
+                { "src": "../assets/work/label_lab/label lab listings design 5/4.jpg", "caption": "" },
+                { "src": "../assets/work/label_lab/label lab listings design 5/5.jpg", "caption": "" },
+                { "src": "../assets/work/label_lab/label lab listings design 5/6.jpg", "caption": "" },
+                { "src": "../assets/work/label_lab/label lab listings design 5/7.jpg", "caption": "" },
+                { "src": "../assets/work/label_lab/label lab listings design 5/8.jpg", "caption": "" },
+                { "src": "../assets/work/label_lab/label lab listings design 5/9.jpg", "caption": "" },
+                { "src": "../assets/work/label_lab/label lab listings design 5/10.jpg", "caption": "" },
+                { "src": "../assets/work/label_lab/label lab listings design 5/11.jpg", "caption": "" }
+             ]
+          },
+          {
+             "title": "IG post",
+             "imgs": [
+                { "src": "../assets/work/label_lab/ig/1.jpg", "caption": "" },
+                { "src": "../assets/work/label_lab/ig/2.jpg", "caption": "" },
+                { "src": "../assets/work/label_lab/ig/3.jpg", "caption": "" },
+                { "src": "../assets/work/label_lab/ig/4.jpg", "caption": "" },
+                { "src": "../assets/work/label_lab/ig/5.jpg", "caption": "" },
+                { "src": "../assets/work/label_lab/ig/6.jpg", "caption": "" }
+             ]
+          }
+       ]
+    },
+    {
       "id":"4",
-      "type": "LOGO",
-       "typeSK": "LOGO",
+      "type": "BRANDS",
+       "typeSK": "BRANDS",
        "title": "Spojená škola",
        "description": "<p><b>Popis: </b>Celková brand idea vychádzala z troch hlavných bodov a to: minimalizmus, využitie symbolov, a prepojenie s prírodou. Podľa princípu života františkánov by vizuálna identita značky mala vychádzať z minimalizmu. Tento štýl musí rešpektovať nie len samotné logo ale aj všetky ďalšie vizuálne prvky, ktoré sa budú popri logu využívať. Svätý František sa často spájal s prírodou a preto som odporučila využívať rôzne prírodne motívy ako rastliny alebo ich časti (lístky, korene, vetvy). Môžu sa využívať symboly ako vrabec, vlk, šnúra s troma uzlami. Pretože všetky tieto prvky sa spájajú so svätcom.</p><p><b>Prvky loga: </b> Logo je kombinované, skladá sa z grafického prvku aj textu. Grafický prvok vychádza z gréckeho písmena Tau, ktoré sa často spája so sv. Františkom z Assisi. Toto písmeno je upravené do podoby klasického odevu charakteristické pre tohoto svätca. Odev zdobí aj známy opasok s troma uzlami reprezentujúcimi čistotu chudobu a poslušnosť</p>",
        "thumbnail": "assets/work/spojena_skola/thumbnail.jpg",
@@ -256,8 +378,8 @@
     },
     {
       "id":"5",
-      "type": "LOGO",
-       "typeSK": "LOGO",
+      "type": "BRANDS",
+       "typeSK": "BRANDS",
        "title": "Kejloo",
        "description": "<p>Tento návrh loga vznikol pre online e-shop predávajúci kozmetické výrobky. Logo malo pôsobiť odvážne, hravé, netradičné a moderné. Klient trval na využití neónových farieb. Názov bol taktiež predom definovaný a mojou úlohou bolo vymyslieť jeho grafické stvárnenie.</p>",
        "thumbnail": "assets/work/kejloo/1.0-logo.png",
@@ -603,128 +725,6 @@
           }
        ],
        "attachments": []
-    },
-    {
-      "id":"16",
-       "type": "LOGO",
-       "typeSK": "LOGO",
-       "title": "Mori",
-       "description": "<p>Návrh loga bol vypracovaný aby reprezentoval spoločnosť so zameraním na predaj ručne vyrábaných diorám. Hlavné logo pozostáva z dvoch slov “Mori”, ktoré tvorí názov spoločnosti a slova “crafts” ktoré naznačuje druh podnikateľskej činnosti. Logo je typografické, inšpirované ťahmi japonského štetca. Symbolizuje ručnú tvorbu a formu umenia. Logo je moderné, jednoduché a jedinečné. Nesie prvky prírody a dotvára tak obraz o spoločnosti. Celkova vizuálna identity bola vytvorená tak aby reprezentovala lesné prostredie a prírodu.</p>",
-       "thumbnail": "assets/work/mori/2.jpg",
-       "contain": "0",
-       "template": "3",
-       "clientInfo": {
-          "name": "Laura Augustínová",
-          "business": "Výroba a predaj diorám",
-          "assignment": "Vytvorenie funkčného loga a dizajn manuálu pre začínajúcu spoločnosť spolu so všetkými potrebnými materiálmi",
-          "deliverables": "Dizajn manuál, návrh loga, návrh príspevkov na sociálne siete, informatívna grafika, návrh webovej stránky, návrh vizitiek a návrh balenia",
-          "website": ""
-       },
-       "attachments": [
-          {
-             "name": "Design manual",
-             "nameSK": "Dizajn manuál",
-             "src": "../assets/work/mori/dm/Dizajnmanuál.pdf"
-          }
-       ],
-       "sections": [
-          {
-             "title": "Logo",
-             "imgs": [
-                { "src": "../assets/work/mori/1.jpg", "caption": "" },
-                { "src": "../assets/work/mori/2.jpg", "caption": "" },
-                { "src": "../assets/work/mori/3.jpg", "caption": "" }
-             ]
-          },
-          {
-             "title": "Web dizajn",
-             "imgs": [
-                { "src": "../assets/work/mori/web dizajn/web dizajn mori.jpg", "caption": "" }
-             ]
-          },
-          {
-             "title": "Vizitky",
-             "imgs": [
-                { "src": "../assets/work/mori/vizitky/vizitky mori.jpg", "caption": "" }
-             ]
-          },
-          {
-             "title": "Sociálne siete",
-             "imgs": [
-                { "src": "../assets/work/mori/sociálne siete/1.jpg", "caption": "" },
-                { "src": "../assets/work/mori/sociálne siete/2.jpg", "caption": "" },
-                { "src": "../assets/work/mori/sociálne siete/návrh soc. sieti pinterest.jpg", "caption": "" },
-                { "src": "../assets/work/mori/sociálne siete/Soc. siete - FB.jpg", "caption": "" }
-             ]
-          },
-          {
-             "title": "Brand vizual",
-             "imgs": [
-                { "src": "../assets/work/mori/brand vizual/manuál značky.jpg", "caption": "" },
-                { "src": "../assets/work/mori/brand vizual/manuál značky(1).jpg", "caption": "" }
-             ]
-          }
-       ]
-    },
-    {
-      "id":"17",
-       "type": "LOGO",
-       "typeSK": "LOGO",
-       "title": "Label Lab",
-       "description": "<p>Návrh loga bol vypracovaný aby reprezentoval spoločnosť so zameraním na predaj  digitálnych nálepiek. Klient si žiadal len jeden grafický návrh a podmienkou bolo aby logo  pôsobilo minimalisticky, moderne ale nadčasovo a hravo. Názov Label Lab bol odvodený od  dvoch anglických slov ako odkaz na činnosť podnikania. Tento názov som zvolila  z viacerých dôvodov. Prvým je originalita názvu a jeho ľahká výslovnosť a tým pádom dobrá  zapamätateľnosť. Druhým je jeho hravosť a jedinečnosť. Nakoľko spoločnosť chcela vytvárať a predávať široké portfólio digitálnych produktov, bol zvolený názov ktorý sa nespája iba s jedným typom produktu. </br>Logo je kombinované a obsahuje grafické prvky pripomínajúce chemické prvky ako odkaz na časť názvu „lab“</p>",
-       "thumbnail": "assets/work/label_lab/profilovka.jpg",
-       "contain": "0",
-       "template": "2",
-       "clientInfo": {
-          "name": "Sona Porsok",
-          "business": "Nálepky",
-          "assignment": "Vytvorenie funkčného loga a dizajn manuálu pre začínajúcu spoločnosť, vytvorenie produktu",
-          "deliverables": "Dizajn manuál, návrh loga, návrh príspevkov na sociálne siete, informatívna grafika",
-          "website": ""
-       },
-       "attachments": [],
-       "sections": [
-          {
-             "title": "Profil obchodu",
-             "imgs": [
-                { "src": "../assets/work/label_lab/profilovka.jpg", "caption": "" },
-                { "src": "../assets/work/label_lab/shop pictures/1.jpg", "caption": "" },
-                { "src": "../assets/work/label_lab/shop pictures/2.jpg", "caption": "" },
-                { "src": "../assets/work/label_lab/shop pictures/3.jpg", "caption": "" }
-             ]
-          },
-          {
-             "title": "Listing dizajn",
-             "imgs": [
-                { "src": "../assets/work/label_lab/label lab listings design 5/1.2.jpg", "caption": "" },
-                { "src": "../assets/work/label_lab/label lab listings design 5/1.3.jpg", "caption": "" },
-                { "src": "../assets/work/label_lab/label lab listings design 5/1.jpg", "caption": "" },
-                { "src": "../assets/work/label_lab/label lab listings design 5/2.2.jpg", "caption": "" },
-                { "src": "../assets/work/label_lab/label lab listings design 5/2.3.jpg", "caption": "" },
-                { "src": "../assets/work/label_lab/label lab listings design 5/2.jpg", "caption": "" },
-                { "src": "../assets/work/label_lab/label lab listings design 5/3.jpg", "caption": "" },
-                { "src": "../assets/work/label_lab/label lab listings design 5/4.jpg", "caption": "" },
-                { "src": "../assets/work/label_lab/label lab listings design 5/5.jpg", "caption": "" },
-                { "src": "../assets/work/label_lab/label lab listings design 5/6.jpg", "caption": "" },
-                { "src": "../assets/work/label_lab/label lab listings design 5/7.jpg", "caption": "" },
-                { "src": "../assets/work/label_lab/label lab listings design 5/8.jpg", "caption": "" },
-                { "src": "../assets/work/label_lab/label lab listings design 5/9.jpg", "caption": "" },
-                { "src": "../assets/work/label_lab/label lab listings design 5/10.jpg", "caption": "" },
-                { "src": "../assets/work/label_lab/label lab listings design 5/11.jpg", "caption": "" }
-             ]
-          },
-          {
-             "title": "IG post",
-             "imgs": [
-                { "src": "../assets/work/label_lab/ig/1.jpg", "caption": "" },
-                { "src": "../assets/work/label_lab/ig/2.jpg", "caption": "" },
-                { "src": "../assets/work/label_lab/ig/3.jpg", "caption": "" },
-                { "src": "../assets/work/label_lab/ig/4.jpg", "caption": "" },
-                { "src": "../assets/work/label_lab/ig/5.jpg", "caption": "" },
-                { "src": "../assets/work/label_lab/ig/6.jpg", "caption": "" }
-             ]
-          }
-       ]
     }
  ]
  

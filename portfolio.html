@@ -90,7 +90,7 @@
                 Ilustrácie
              </span>
           </button>
-          <button class="portfolio-tab" onclick="openCategory(event,'LOGOS')">
+          <button class="portfolio-tab" onclick="openCategory(event,'BRANDS')">
              <span>
                 Brands
              </span>
@@ -100,11 +100,12 @@
                 Úprava fotiek
              </span>
           </button>
-          <button class="portfolio-tab" onclick="openCategory(event,'SOCIALS')">
+          <!-- TODO : -->
+          <!-- <button class="portfolio-tab " onclick="openCategory(event,'SOCIALS')">
             <span>
                Socials
             </span>
-         </button>
+         </button> -->
        </div>
  
        <!-- TODO : Refactor Redundant CODE -->
@@ -183,8 +184,8 @@
                     item.style.display = item.dataset.type == "ILLUSTRATION" ? "block" : "none"
                 } else if (category == "PHOTO EDITING") {
                     item.style.display = item.dataset.type == "PHOTO EDITING" ? "block" : "none"
-                } else if (category == "LOGOS") {
-                    item.style.display = item.dataset.type == "LOGO" ? "block" : "none"
+                } else if (category == "BRANDS") {
+                    item.style.display = item.dataset.type == "BRANDS" ? "block" : "none"
                 } else {
                     item.style.display = "none"
                 }

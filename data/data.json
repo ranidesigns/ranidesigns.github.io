@@ -1,0 +1,608 @@
+[
+    {
+      "id":"1",
+       "type": "LOGO",
+       "typeSK": "LOGO",
+       "title": "SAO",
+       "description": "<p>Návrh loga bol vypracovaný aby reprezentoval vietnamskú reštauráciu. Klient si žiadal len jeden grafický návrh a podmienkou bolo aby logo pôsobilo minimalisticky, moderne ale so znakmi tradičnosti. Názov Sao pochádza z vietnamčiny a znamená „hviezda“. Tento názov som vybrala z niekoľkých dôvodov. Prvým je originalita názvu a jeho ľahká výslovnosť a tým pádom dobrá zapamätateľnosť. Druhým je jeho prepojenie s Vietnamom a vietnamskou kultúrou, nakoľko je to práve hviezda, ktorá je symbolom Vietnamu a nachádza sa aj na ich vlajke. Tretím dôvodom je akýsi symbolický význam ktorý reflektuje, že táto reštaurácie ja hviezdou medzi jej konkurenciou.</p> <p>Logo nesie aj skrytú ilustráciu misky s paličkami ktorá má spotrebiteľovi napovedať, že sa jedná o reštauráciu.</p>",
+       "thumbnail": "assets/work/sao/1.5-sao-logo.png",
+       "contain": "0",
+       "template": "3",
+       "clientInfo": {
+          "name": "Viet Le",
+          "business": "Ázijská reštaurácia",
+          "assignment": "Vytvorenie funkčného loga a dizajn manuálu pre začínajúcu spoločnosť",
+          "deliverables": "Dizajn manuál, návrh loga, návrh vizitky, návrh uniformy, návrh menu jedálnička, návrh vývesnej cedule",
+          "website": ""
+       },
+       "attachments": [
+          {
+             "name": "Design manual",
+             "nameSK": "Dizajn manuál",
+             "src": "../assets/work/sao/DM-sao.pdf"
+          }
+       ],
+       "sections": [
+          {
+             "title": "Logo",
+             "imgs": [
+                { "src": "../assets/work/sao/1.6-sao-logo.png", "caption": "" },
+                { "src": "../assets/work/sao/1.7-sao-logo.png", "caption": "" }
+             ]
+          },
+          {
+             "title": "Vývesná tabuľa",
+             "imgs": [
+                { "src": "../assets/work/sao/2.1-sao-signboard.jpg", "caption": "" },
+                { "src": "../assets/work/sao/2.2-sao-signboard.jpg", "caption": "" },
+                { "src": "../assets/work/sao/2.3-sao-signboard.jpg", "caption": "" }
+             ]
+          },
+          {
+             "title": "Uniformy",
+             "imgs": [
+                { "src": "../assets/work/sao/4.1-sao-dresscode.jpg", "caption": "" },
+                { "src": "../assets/work/sao/4.2-sao-dresscode.jpg", "caption": "" },
+                { "src": "../assets/work/sao/4.3-sao-dresscode.jpg", "caption": "" }
+             ]
+          },
+          {
+             "title": "Vizuál sociálnych sieti",
+             "imgs": [
+                { "src": "../assets/work/sao/6-sao-social-fb.jpg", "caption": "" },
+                { "src": "../assets/work/sao/6-sao-social-ig.jpg", "caption": "" },
+                { "src": "../assets/work/sao/6-sao-social-web.jpg", "caption": "" }
+             ]
+          },
+          {
+             "title": "Menu, vizitky a interiér",
+             "imgs": [
+                { "src": "../assets/work/sao/5.1-sao-menu.jpg", "caption": "" },
+                { "src": "../assets/work/sao/5.2-sao-menu.jpg", "caption": "" },
+                { "src": "../assets/work/sao/3.1-business-card.png", "caption": "" },
+                { "src": "../assets/work/sao/7-sao-interior-design.jpg", "caption": "" }
+             ]
+          }
+       ]
+    },
+    {
+      "id":"2",
+       "type": "LOGO",
+       "typeSK": "LOGO",
+       "title": "Good Drops",
+       "description": "<p>Toto logo vzniklo pre spoločnosť, ktorá sa zaoberá výrobou a predajom filtrov na vodu v domácnostiach ale aj exteriéroch. Logo ktoré bolo nakoniec klientom zvolené vzniklo v spolupráci s doc. PhDr. Milanom Banyárom. Klient si žiadal viaceré návrhy loga a podmienkou bolo aby v názve „good drops“ boli zakomponované prvky vody. Logo malo pôsobiť minimalisticky a moderne.</p>",
+       "thumbnail": "assets/work/good_drops/1.1-gd-logo.png",
+       "contain": "0",
+       "template": "3",
+       "clientInfo": {
+          "name": "Jana Lizáková",
+          "business": "Výroba a predaj filtrov a čistiacíh prostriedkov na vodné plochy v exteriéri a pre čistenie vody v domácnostiach",
+          "assignment": "Vytvorenie funkčného loga pre začínajúcu spoločnosť",
+          "deliverables": "Dizajn manuál, návrh loga, návrh vizitky, návrh emailového podpisu",
+          "website": ""
+       },
+       "attachments": [
+          {
+             "name": "Design manual",
+             "nameSK": "Dizajn manuál",
+             "src": "../assets/work/good_drops/DM-gooddrops.pdf"
+          }
+       ],
+       "sections": [
+          {
+             "title": "Logo",
+             "imgs": [
+                { "src": "../assets/work/good_drops/1.2-gd-logo.png", "caption": "" },
+                { "src": "../assets/work/good_drops/1.3-gd-logo.png", "caption": "" }
+             ]
+          },
+          {
+             "title": "Alternatívny dizajn",
+             "imgs": [
+                { "src": "../assets/work/good_drops/alt-logo-1.png", "caption": "" },
+                { "src": "../assets/work/good_drops/alt-logo-2.png", "caption": "" },
+                { "src": "../assets/work/good_drops/alt-logo-3.png", "caption": "" },
+                { "src": "../assets/work/good_drops/alt-logo-4.png", "caption": "" },
+                { "src": "../assets/work/good_drops/alt-logo-5.png", "caption": "" }
+             ]
+          },
+          {
+             "title": "Vizitky",
+             "imgs": [{ "src": "../assets/work/good_drops/2.1-gd-card.png", "caption": "" }]
+          }
+       ]
+    },
+    {
+      "id":"3",
+      "type": "LOGO",
+       "typeSK": "LOGO",
+       "title": "Dazzle",
+       "description": "<p>Toto logo som vytvorila pre klienta, ktorého cieľom podnikania je predaj zberateľských produktov 3 známych značiek. Pokémon, Hotwheels a Funko POP. Klient si žiadal dva návrhy loga a podmienkou bolo aby logo bolo minimalistické a moderné. Názov „Dazzle“ už bol zadaný a mojou úlohou bolo vymyslieť pre tento názov grafické spodobnenie. Keďže klient obchoduje hlavne so sortimentom značky Pokémon a zameriava sa primárne na predaj zberateľských kariet, rozhodla som sa do loga zakomponovať nenápadne symbol ktorý by to reprezentoval. Spojením písmen z a z vznikol obrys karty ktorá jednoducho a účelne doplnila logo značky.</p>",
+       "thumbnail": "assets/work/dazzle/dazzle-logo-3.png",
+       "contain": "0",
+       "template": "2",
+       "clientInfo": {
+          "name": "Tomáš Morár",
+          "business": "Predaj zberateľských produktov značiek hotwheels, Funko POP! a Pokémon",
+          "assignment": "Rebranding pôvodného loga, v dôsledku zmeny celkového zamerania podnikania",
+          "deliverables": "Dizajn manuál, návrh loga, návrh vizitky, návrh darčekových poukážok, tvorba kontentu na sociálne siete, tvorba grafiky pre webstránku, tvorba produktových obalov",
+          "website": "https://www.dazzle.sk/"
+       },
+       "attachments": [
+          {
+             "name": "Design manual",
+             "nameSK": "Dizajn manuál",
+             "src": "../assets/work/dazzle/DM-dazzle.pdf"
+          }
+       ],
+       "sections": [
+          {
+             "title": "Logo",
+             "imgs": [
+                { "src": "../assets/work/dazzle/dazzle-logo-2.png", "caption": "" },
+                { "src": "../assets/work/dazzle/dazzle-logo-4.png", "caption": "" }
+             ]
+          },
+          {
+             "title": "Alternatívny dizajn",
+             "imgs": [
+                { "src": "../assets/work/dazzle/alt-logo-1.png", "caption": "" },
+                { "src": "../assets/work/dazzle/alt-logo-2.png", "caption": "" },
+                { "src": "../assets/work/dazzle/alt-logo-3.png", "caption": "" },
+                { "src": "../assets/work/dazzle/alt-logo-4.png", "caption": "" },
+                { "src": "../assets/work/dazzle/alt-logo-5.png", "caption": "" }
+             ]
+          },
+          {
+             "title": "Vizitky",
+             "imgs": [
+                { "src": "../assets/work/dazzle/business-cards/card1.png", "caption": "" },
+                { "src": "../assets/work/dazzle/business-cards/card2.png", "caption": "" }
+             ]
+          },
+          {
+             "title": "Darčekové poukážky",
+             "imgs": [
+                { "src": "../assets/work/dazzle/gift-cards/squirtle_f.jpg", "caption": "" },
+                { "src": "../assets/work/dazzle/gift-cards/squirtle_b.jpg", "caption": "" },
+                { "src": "../assets/work/dazzle/gift-cards/bulb_f.jpg", "caption": "" },
+                { "src": "../assets/work/dazzle/gift-cards/bulb_b.jpg", "caption": "" },
+                { "src": "../assets/work/dazzle/gift-cards/pika_f.jpg", "caption": "" },
+                { "src": "../assets/work/dazzle/gift-cards/pika_b.jpg", "caption": "" },
+                { "src": "../assets/work/dazzle/gift-cards/charm_f.jpg", "caption": "" },
+                { "src": "../assets/work/dazzle/gift-cards/charm_b.jpg", "caption": "" }
+             ]
+          },
+          {
+             "title": "Vizuál sociálnych sieti",
+             "imgs": [
+                { "src": "../assets/work/dazzle/socials/Arceus V box - post.jpg", "caption": "" },
+                { "src": "../assets/work/dazzle/socials/Arceus V box - storíčko.jpg", "caption": "" },
+                { "src": "../assets/work/dazzle/socials/eevee evolutions tins post 1 s logom.jpg", "caption": "" },
+                { "src": "../assets/work/dazzle/socials/lost origin post picture dazzle.jpg", "caption": "" },
+                { "src": "../assets/work/dazzle/socials/lost origin stries picture dazzle.jpg", "caption": "" },
+                { "src": "../assets/work/dazzle/socials/pogo starter pin collection post.jpg", "caption": "" },
+                { "src": "../assets/work/dazzle/socials/pogo tinky promo pikachu post.jpg", "caption": "" },
+                { "src": "../assets/work/dazzle/socials/Starter pin collection - storíčko.jpg", "caption": "" },
+                { "src": "../assets/work/dazzle/socials/Dazzle posty 2022 - silver tempest post FB.jpg", "caption": "" },
+                { "src": "../assets/work/dazzle/socials/Dazzle storíčka 2022 - silver tempest storíčko 1.jpg", "caption": "" },
+                { "src": "../assets/work/dazzle/socials/Dazzle storíčka 2022.jpg", "caption": "" },
+                { "src": "../assets/work/dazzle/socials/dazzle storíčka 2023 galarian birds crown zenith tinky 1.jpg", "caption": "" },
+                { "src": "../assets/work/dazzle/socials/hotwheels mein post FB.jpg", "caption": "" },
+                { "src": "../assets/work/dazzle/socials/real riders post FB.jpg", "caption": "" }
+             ]
+          },
+          {
+             "title": "Vernostný program",
+             "imgs": [
+                { "src": "../assets/work/dazzle/stamps/stamp.jpg", "caption": "" },
+                { "src": "../assets/work/dazzle/stamps/stamp1.jpg", "caption": "" },
+                { "src": "../assets/work/dazzle/stamps/stamp2.jpg", "caption": "" },
+                { "src": "../assets/work/dazzle/stamps/stamp3.jpg", "caption": "" },
+                { "src": "../assets/work/dazzle/stamps/stamp4.jpg", "caption": "" }
+             ]
+          }
+       ]
+    },
+    {
+      "id":"4",
+      "type": "LOGO",
+       "typeSK": "LOGO",
+       "title": "Spojená škola",
+       "description": "<p><b>Popis: </b>Celková brand idea vychádzala z troch hlavných bodov a to: minimalizmus, využitie symbolov, a prepojenie s prírodou. Podľa princípu života františkánov by vizuálna identita značky mala vychádzať z minimalizmu. Tento štýl musí rešpektovať nie len samotné logo ale aj všetky ďalšie vizuálne prvky, ktoré sa budú popri logu využívať. Svätý František sa často spájal s prírodou a preto som odporučila využívať rôzne prírodne motívy ako rastliny alebo ich časti (lístky, korene, vetvy). Môžu sa využívať symboly ako vrabec, vlk, šnúra s troma uzlami. Pretože všetky tieto prvky sa spájajú so svätcom.</p><p><b>Prvky loga: </b> Logo je kombinované, skladá sa z grafického prvku aj textu. Grafický prvok vychádza z gréckeho písmena Tau, ktoré sa často spája so sv. Františkom z Assisi. Toto písmeno je upravené do podoby klasického odevu charakteristické pre tohoto svätca. Odev zdobí aj známy opasok s troma uzlami reprezentujúcimi čistotu chudobu a poslušnosť</p>",
+       "thumbnail": "assets/work/spojena_skola/thumbnail.jpg",
+       "contain": "0",
+       "template": "2",
+       "clientInfo": {
+          "name": "PaedDr. Marta Sendeková PhD.",
+          "business": "Spojená škola sv. Františka z Assisi",
+          "assignment": "Vytvorenie loga pre spojenú školu sv. Františka z Assisi s dôrazom na symboliku svätca. Názov ponechať ako súčasť loga. Farby, font ako aj samotný dizajn loga neboli striktne určené a boli ponechané kreativite autora.",
+          "deliverables": "Návrh loga, návrh hlavičkového papiera, návrh firemných produktov, dizajn manuál",
+          "website": ""
+       },
+       "attachments": [
+          {
+             "name": "Design manual",
+             "nameSK": "Dizajn manuál",
+             "src": "../assets/work/spojena_skola/dm-spojena-skola.pdf"
+          }
+       ],
+       "sections": [
+          {
+             "title": "Logo",
+             "imgs": [
+                { "src": "../assets/work/spojena_skola/logo-1.jpg", "caption": "" },
+                { "src": "../assets/work/spojena_skola/logo-2.jpg", "caption": "" },
+                { "src": "../assets/work/spojena_skola/logo-3.jpg", "caption": "" }
+             ]
+          },
+          {
+             "title": "Merch",
+             "imgs": [
+                { "src": "../assets/work/spojena_skola/merch-1.jpg", "caption": "" },
+                { "src": "../assets/work/spojena_skola/merch-2.jpg", "caption": "" },
+                { "src": "../assets/work/spojena_skola/merch-3.jpg", "caption": "" },
+                { "src": "../assets/work/spojena_skola/merch-4.jpg", "caption": "" }
+             ]
+          },
+          {
+             "title": "Hlavičkový papier",
+             "imgs": [
+                { "src": "../assets/work/spojena_skola/hlav-papier-1.jpg", "caption": "" },
+                { "src": "../assets/work/spojena_skola/hlav-papier-2.jpg", "caption": "" }
+             ]
+          }
+       ]
+    },
+    {
+      "id":"5",
+      "type": "LOGO",
+       "typeSK": "LOGO",
+       "title": "Kejloo",
+       "description": "<p>Tento návrh loga vznikol pre online e-shop predávajúci kozmetické výrobky. Logo malo pôsobiť odvážne, hravé, netradičné a moderné. Klient trval na využití neónových farieb. Názov bol taktiež predom definovaný a mojou úlohou bolo vymyslieť jeho grafické stvárnenie.</p>",
+       "thumbnail": "assets/work/kejloo/1.0-logo.png",
+       "contain": "0",
+       "template": "3",
+       "clientInfo": {
+          "name": "Čurma Ľuboš, JUDr.",
+          "business": "Predaj dekoratívnej a úžitkovej kozmetiky",
+          "assignment": "Vytvoriť návrh loga pre online eshop",
+          "deliverables": "Grafický návrh loga",
+          "website": ""
+       },
+       "attachments": [],
+       "sections": [
+          {
+             "title": "Logo",
+             "imgs": [
+                { "src": "../assets/work/kejloo/1.1-logo.png", "caption": "" },
+                { "src": "../assets/work/kejloo/1.2-logo.png", "caption": "" },
+                { "src": "../assets/work/kejloo/1.5-logo.png", "caption": "" },
+                { "src": "../assets/work/kejloo/1.3-logo.png", "caption": "" },
+                { "src": "../assets/work/kejloo/1.4-logo.png", "caption": "" }
+             ]
+          },
+          {
+             "title": "Tašky",
+             "imgs": [
+                { "src": "../assets/work/kejloo/3.1-bags.png", "caption": "" },
+                { "src": "../assets/work/kejloo/3.2-bags.png", "caption": "" }
+             ]
+          }
+       ]
+    },
+    {
+      "id":"6",
+      "type": "ILLUSTRATION",
+       "typeSK": "ILUSTRÁCIA",
+       "slider": "1",
+       "title": "Patronus",
+       "description": "<p>Toto je môj úplne prvotný výtvor a viaže ma k nemu nehynúci sentiment. Ako mnohí, aj ja som bola od ranného veku veľkým fanúšikom Harryho Pottera. Keď som začínala svoju tvorbu nemala som veľa skúseností a všetko, čo viem som sa naučila sama, vďaka online kurzom a môjmu odhodlaniu. Ako som už nadobudla pár základných zručností, rozhodla som sa vytvoriť čosi mne blízke. A tak vznikol tento koncept. Patronus je magické zaklínadlo chrániace toho kto ho zošle, proti temnej mýtickej bytosti. Toto kúzlo má podobu duše kúzelníka a preto sa zobrazuje v podobe nejakého známeho zvieraťa od mačky, psa až po jeleňa.</p><p>Toto dielo vzniklo podľa mojej vlastnej predstavivosti ale inšpirované je známym svetom Harryho Pottera od J. K Rowlingovej</p> ",
+       "thumbnail": "assets/work/my_creations/thumbnails/1.patronus-thumb.jpg",
+       "contain": "0",
+       "template": "5",
+       "clientInfo": {},
+       "sections": [
+          {
+             "title": "",
+             "imgs": [
+                { "src": "../assets/work/my_creations/1.patronus.jpg", "caption": "" },
+                { "src": "../assets/work/my_creations/1.patronus-PRED.jpg", "caption": "" }
+             ]
+          }
+       ],
+       "attachments": []
+    },
+    {
+      "id":"7",
+      "type": "ILLUSTRATION",
+       "typeSK": "ILUSTRÁCIA",
+       "slider": "1",
+       "title": "Fenrir",
+       "description": "<p>Toto dielo vzniklo podľa inšpirácie umelca Mohameda Mehrez a jeho diela „fantasy photo manipulation“. Vďaka nemu som sa naučila mnohým technikám a jeho tvorba bola pre mňa vždy veľmi inšpiratívna. Pri pohľade na jeho prácu mi v hlave napadla myšlienka čohosi veľmi podobného no napriek tomu odlišného. Tak vznikol tento námet. Fenrir je bytosť z nórskej mytológie. Podľa jednej legendy mal Fenrir zožrať slnko a počas Ragnaroku sa postaviť najsilnejšiemu bohu Odinovi a zabiť ho. Je vyobrazovaný ako obrovský vlk ktorý jedným krokom dokáže prekročiť tie najvyššie hory. Ku severskej mytológií ma to vždy tiahlo, prišla mi fascinujúca a chcela som ju prepojiť s niečím ďalším. Fenrirovi som dala silného protivníka a postavila ho zoči voči najväčšiemu čarodejníkovi dejín.</p> ",
+       "thumbnail": "assets/work/my_creations/thumbnails/2.Fenrir-thumb.jpg",
+       "contain": "0",
+       "template": "6",
+       "clientInfo": {},
+       "sections": [
+          {
+             "title": "",
+             "imgs": [
+                { "src": "../assets/work/my_creations/2.Fenrir.jpg", "caption": "" },
+                { "src": "../assets/work/my_creations/2.Fenrir-PRED.jpg", "caption": "" }
+             ]
+          }
+       ],
+       "attachments": []
+    },
+    {
+      "id":"8",
+      "type": "ILLUSTRATION",
+       "typeSK": "ILUSTRÁCIA",
+       "slider": "1",
+       "title": "Guardian",
+       "description": "<p>Každý človek má svojho osobného strážcu. Či už ho počuje formou vnútorného hlasu, nazýva ho intuíciou, anjelom alebo akokoľvek inak. Môže mať množstvo podôb no ich úloha sa nelíši. Každý dostal za úlohu opatrovať jednu bytosť. Toto dielo vzniklo podľa inšpirácie od umelca Kevina Cardena a jeho diela „Sword of the spirit“.</p> ",
+       "thumbnail": "assets/work/my_creations/thumbnails/3.inner-soul-guard-thumb.jpg",
+       "contain": "0",
+       "template": "6",
+       "clientInfo": {},
+       "sections": [
+          {
+             "title": "",
+             "imgs": [
+                { "src": "../assets/work/my_creations/3.inner-soul-guard.jpg", "caption": "" },
+                { "src": "../assets/work/my_creations/3.inner-soul-guard-PRED.jpg", "caption": "" }
+             ]
+          }
+       ],
+       "attachments": []
+    },
+    {
+      "id":"9",
+      "type": "ILLUSTRATION",
+       "typeSK": "ILUSTRÁCIA",
+       "slider": "1",
+       "title": "Ríša divov",
+       "description": "<p>Každý sa aspoň raz v živote cítil oproti svetu v ktorom žijeme maličký ako kvapka vody. No aj takýto pohľad na svet má svoje čaro. Toto dielo vzniklo vďaka inšpirácie od umelkyne Raffy Alfazri podľa jej diela „gloving mushroom“.</p> ",
+       "thumbnail": "assets/work/my_creations/thumbnails/4.alenka-thumb.jpg",
+       "contain": "0",
+       "template": "6",
+       "clientInfo": {},
+       "sections": [
+          {
+             "title": "",
+             "imgs": [
+                { "src": "../assets/work/my_creations/4.alenka.jpg", "caption": "" },
+                { "src": "../assets/work/my_creations/4.alenka-PRED.jpg", "caption": "" }
+             ]
+          }
+       ],
+       "attachments": []
+    },
+    {
+      "id":"10",
+      "type": "ILLUSTRATION",
+       "typeSK": "ILUSTRÁCIA",
+       "slider": "1",
+       "title": "Dobrodružstvo",
+       "description": "Dobrodružstvo. Pocit slobody a voľnosti, neistoty a strachu. Je to tá najlepšia škola akú človek za svoj život navštívi. Toto dielo vzniklo podľa inšpirácie od umelkyni Rafffy Alfazri a podľa jej diela „rails inside“.</p> ",
+       "thumbnail": "assets/work/my_creations/thumbnails/5.fotka-z-druhej-strany-thumb.jpg",
+       "contain": "0",
+       "template": "5",
+       "clientInfo": {},
+       "sections": [
+          {
+             "title": "",
+             "imgs": [
+                { "src": "../assets/work/my_creations/5.fotka-z-druhej-strany.jpg", "caption": "" },
+                { "src": "../assets/work/my_creations/5.fotka-z-druhej-strany-PRED.jpg", "caption": "" }
+             ]
+          }
+       ],
+       "attachments": []
+    },
+    {
+      "id":"11",
+      "type": "ILLUSTRATION",
+       "typeSK": "ILUSTRÁCIA",
+       "slider": "1",
+       "title": "Vnútro človeka",
+       "description": "<p>Čo je to dobro? Dobro je jedno z najzakladanejších a univerzálnych etických pojmov, ktorý môžeme chápať ako všeobecný ideál správania sa a rozhodovania sa. Toto konanie by malo mať pozitívne následky pre jednotlivcov aj pre spoločnosť ako celok.</p> <p>V umení môže byť dobro vyjadrené rôznymi spôsobmi. Môže to byť zobrazenie krásy, harmónie a rovnováhy vo farbách, forme a kompozícii. Môže sa to tiež prejaviť v umení, ktoré upriamuje pozornosť na dôležité otázky, ako napríklad neprávosť, utrpenie, nespravodlivosť alebo diskrimináciu. Videnie alebo chápanie dobra je však subjektívne a takto ho vnímam ja.</p><p>Dielo vzniklo podľa inšpirácie od umelkyni Raffy Alfazri a podľa jej diela „plant face portrait“.</p>",
+       "thumbnail": "assets/work/my_creations/thumbnails/6.inside-human-thumb.jpg",
+       "contain": "0",
+       "template": "6",
+       "clientInfo": {},
+       "sections": [
+          {
+             "title": "",
+             "imgs": [
+                { "src": "../assets/work/my_creations/6.inside-human.jpg", "caption": "" },
+                { "src": "../assets/work/my_creations/6.inside-human-PRED.jpg", "caption": "" }
+             ]
+          }
+       ],
+       "attachments": []
+    },
+    {
+      "id":"12",
+      "type": "ILLUSTRATION",
+       "typeSK": "ILUSTRÁCIA",
+       "slider": "1",
+       "title": "Nápad",
+       "description": "<p>Voda, prírodný prvok, ktorý nás obklopuje a obklopoval od nepamäti. Jej jemná hladina sa dotýka pobrežia, akoby sa neustále objímala s pevninou. Voda má moc pohlcovať a odovzdávať, jej neustála zmena je záznamom o tom, ako všetko prechádza časom. Svojou plynulosťou vyvoláva pocit pokoja, ktorý zmierni každú myseľ aj dušu. Voda, so svojou premenlivosťou, môže byť kedykoľvek a kdekoľvek. Môže byť mäkká ako dažďová kvapka, ktorá sa pomaly prebíja cez hmlu, alebo tvrdá ako zamrznutý ľad. Voda pretekajúca riekou vytvára melódiu, ktorá nás sprevádza po ceste života. Voda, obklopujúca nás so svojou silou a pokojom, nám prináša pocit slobody a oddychu. Je to čistota, ktorá sa prejavuje vo všetkých formách, a dokáže uvoľniť naše myšlienky a navodiť nám pocit harmónie. Voda je našou súčasťou, takže mám nápad. Čo tak ju chrániť?</p> ",
+       "thumbnail": "assets/work/my_creations/thumbnails/7.nemo-thumb.jpg",
+       "contain": "0",
+       "template": "5",
+       "clientInfo": {},
+       "sections": [
+          {
+             "title": "",
+             "imgs": [
+                { "src": "../assets/work/my_creations/7.nemo.jpg", "caption": "" },
+                { "src": "../assets/work/my_creations/7.nemo-PRED.jpg", "caption": "" }
+             ]
+          }
+       ],
+       "attachments": []
+    },
+    {
+      "id":"13",
+      "type": "ILLUSTRATION",
+       "typeSK": "ILUSTRÁCIA",
+       "slider": "0",
+       "title": "Esencia života",
+       "description": "<p>Vášeň, odvaha, pohyb a radosť. Tieto pojmy tvoria štvoricu základných elementov pre spokojný život každého jedinca. Zamyslela som sa nad tým, ktorá značka by mohla najviac zastávať tieto hodnoty. Vtedy mi to napadlo. Nike. Značka, ktorá tu je už od 1964.  “Our function is to provide knowledge and insight. We are the global repository for the science of human performance and potential” quotes Matthew Nurse, the Senior Director of the Nike Explore Team Sport Research Lab. Ako by mohla táto spoločnosť využiť moje grafické návrhy? V spojitosti s ich sloganom vznikol zaujímavý a efektívny koncept. Dielo bolo vytvorené Radharani Jaslovskou podľa fiktívneho zadania. Spoločnosť Nike tento grafický návrh nepoužila ani nepoužíva v súčasnosti.</p> ",
+       "thumbnail": "assets/work/my_creations/justdoit/thumbnails.jpg",
+       "contain": "0",
+       "template": "5",
+       "clientInfo": {},
+       "sections": [
+          {
+             "title": "Tvorba",
+             "imgs": [
+                { "src": "../assets/work/my_creations/justdoit/just do it (courage).jpg", "caption": "" },
+                { "src": "../assets/work/my_creations/justdoit/just do it (courage)-2.png", "caption": "" },
+                { "src": "../assets/work/my_creations/justdoit/just do it (joy).jpg", "caption": "" },
+                { "src": "../assets/work/my_creations/justdoit/just do it (joy)-2.png", "caption": "" },
+                { "src": "../assets/work/my_creations/justdoit/just do it (movement).jpg", "caption": "" },
+                { "src": "../assets/work/my_creations/justdoit/just do it (movement)-2.png", "caption": "" },
+                { "src": "../assets/work/my_creations/justdoit/just do it (passion).jpg", "caption": "" },
+                { "src": "../assets/work/my_creations/justdoit/just do it (passion)-2.png", "caption": "" }
+             ]
+          }
+       ],
+       "attachments": []
+    },
+    {
+      "id":"14",
+      "type": "PHOTO EDITING",
+       "typeSK": "ÚPRAVA FOTIEK",
+       "title": "Veronika Ginzeriová",
+       "clientInfo": {
+          "name": "Veronika Ginzeriova",
+          "business": "",
+          "assignment": "Zosvetlenie fotografií, balans farebnej kompozície, zvýšenie kontrastu a odstránenie nedokonalostí.",
+          "deliverables": "",
+          "website": ""
+       },
+       "description": "",
+       "thumbnail": "assets/work/photo_editing/ginzeriova/IMG_5867-thumb.jpg",
+       "contain": "0",
+       "template": "3",
+       "sections": [
+          {
+             "title": "",
+             "imgs": [
+                { "src": "../assets/work/photo_editing/ginzeriova/IMG_2012.jpg", "caption": "Pred" },
+                { "src": "../assets/work/photo_editing/ginzeriova/IMG_2012-edit.jpg", "caption": "Po" }
+             ]
+          },
+          {
+             "title": "",
+             "imgs": [
+                { "src": "../assets/work/photo_editing/ginzeriova/IMG_2027.jpg", "caption": "Pred" },
+                { "src": "../assets/work/photo_editing/ginzeriova/IMG_2027-edit.jpg", "caption": "Po" }
+             ]
+          },
+          {
+             "title": "",
+             "imgs": [
+                { "src": "../assets/work/photo_editing/ginzeriova/IMG_4312.jpg", "caption": "Pred" },
+                { "src": "../assets/work/photo_editing/ginzeriova/IMG_4312-edit.jpg", "caption": "Po" }
+             ]
+          },
+          {
+             "title": "",
+             "imgs": [
+                { "src": "../assets/work/photo_editing/ginzeriova/IMG_5867.jpg", "caption": "Pred" },
+                { "src": "../assets/work/photo_editing/ginzeriova/IMG_5867-edit.jpg", "caption": "Po" }
+             ]
+          },
+          {
+             "title": "",
+             "imgs": [
+                { "src": "../assets/work/photo_editing/ginzeriova/IMG_6249.jpg", "caption": "Pred" },
+                { "src": "../assets/work/photo_editing/ginzeriova/IMG_6249-edit.jpg", "caption": "Po" }
+             ]
+          },
+          {
+             "title": "",
+             "imgs": [
+                { "src": "../assets/work/photo_editing/ginzeriova/IMG_9209.jpg", "caption": "Pred" },
+                { "src": "../assets/work/photo_editing/ginzeriova/IMG_9209-edit.jpg", "caption": "Po" }
+             ]
+          },
+          {
+             "title": "",
+             "imgs": [
+                { "src": "../assets/work/photo_editing/ginzeriova/IMG_9247.jpg", "caption": "Pred" },
+                { "src": "../assets/work/photo_editing/ginzeriova/IMG_9247-edit.jpg", "caption": "Po" }
+             ]
+          }
+       ],
+       "attachments": []
+    },
+    {
+      "id":"15",
+      "type": "PHOTO EDITING",
+       "typeSK": "ÚPRAVA FOTIEK",
+       "title": "Radharani Jaslovská",
+       "clientInfo": {
+          "name": "Radharani Jaslovská",
+          "business": "",
+          "assignment": "Celková úprava fotografií, zosvetlenie, zvýraznenie dominantných farieb, dodať teplý podtón, vyvážiť kontrast a jas",
+          "deliverables": "",
+          "website": ""
+       },
+       "description": "",
+       "thumbnail": "assets/work/photo_editing/jaslovska/IMG_8867-thumb.jpg",
+       "contain": "0",
+       "template": "3",
+       "sections": [
+          {
+             "title": "",
+             "imgs": [
+                { "src": "../assets/work/photo_editing/jaslovska/IMG_8176.jpg", "caption": "Pred" },
+                { "src": "../assets/work/photo_editing/jaslovska/IMG_8176-edit.jpg", "caption": "Po" }
+             ]
+          },
+          {
+             "title": "",
+             "imgs": [
+                { "src": "../assets/work/photo_editing/jaslovska/IMG_8302.jpg", "caption": "Pred" },
+                { "src": "../assets/work/photo_editing/jaslovska/IMG_8302-edit.jpg", "caption": "Po" }
+             ]
+          },
+          {
+             "title": "",
+             "imgs": [
+                { "src": "../assets/work/photo_editing/jaslovska/IMG_8407.jpg", "caption": "Pred" },
+                { "src": "../assets/work/photo_editing/jaslovska/IMG_8407-edit.jpg", "caption": "Po" }
+             ]
+          },
+          {
+             "title": "",
+             "imgs": [
+                { "src": "../assets/work/photo_editing/jaslovska/IMG_8717.jpg", "caption": "Pred" },
+                { "src": "../assets/work/photo_editing/jaslovska/IMG_8717-edit.jpg", "caption": "Po" }
+             ]
+          },
+          {
+             "title": "",
+             "imgs": [
+                { "src": "../assets/work/photo_editing/jaslovska/IMG_8822.jpg", "caption": "Pred" },
+                { "src": "../assets/work/photo_editing/jaslovska/IMG_8822-edit.jpg", "caption": "Po" }
+             ]
+          },
+          {
+             "title": "",
+             "imgs": [
+                { "src": "../assets/work/photo_editing/jaslovska/IMG_8867.jpg", "caption": "Pred" },
+                { "src": "../assets/work/photo_editing/jaslovska/IMG_8867-edit.jpg", "caption": "Po" }
+             ]
+          }
+       ],
+       "attachments": []
+    }
+ ]
+ 

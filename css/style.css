@@ -607,6 +607,10 @@ textarea {
   font-size: 1rem;
 }
 
+.info > tbody > tr:last-child > td:last-child {
+  padding-bottom: 15px;
+}
+
 @media screen and (max-width: 768px) {
   .info {
     margin-bottom: 3em;
@@ -1327,16 +1331,21 @@ textarea {
   padding-right: 50px;
 } */
 
-#ravi-started .btn {
+#ravi-started .btn,
+#portfolio_container .btn,
+#ravi-portfolio .btn{
   color: #fff;
   border-color: var(--secondary-color);
   background: var(--secondary-color);
 }
 
-#ravi-started .btn:hover {
+#ravi-started .btn:hover ,
+#portfolio_container .btn:hover,
+#ravi-portfolio .btn:hover {
   background: var(--secondary-color-hover);
   border-color: var(--secondary-color-hover);
   color: #fff;
+  transition: all 500ms ease;
 }
 
 .ravi-blog {
@@ -2725,6 +2734,9 @@ input[type="text"] {
   animation: down 1.5s infinite;
   -webkit-animation: down 1.5s infinite;
 }
+.scroll:hover {
+  border: 4px solid var(--secondary-color-hover);
+}
 
 @media screen and (max-width: 768px) {
   .scroll {
@@ -2742,6 +2754,11 @@ input[type="text"] {
   border-left: 4px solid var(--menu-bg);
   border-bottom: 4px solid var(--menu-bg);
   transform: rotate(-45deg);
+}
+
+.scroll:hover::before {
+  border-left: 4px solid var(--secondary-color-hover);
+  border-bottom: 4px solid var(--secondary-color-hover);
 }
 
 @keyframes down {
@@ -2786,5 +2803,50 @@ input[type="text"] {
   }
   60% {
     height: 40px;
+  }
+}
+
+.pulse-button {
+  /* box-shadow: 0 0 0 0 rgba(#5a99d4, .5);
+  -webkit-animation: pulsing 1.5s infinite; */
+
+  box-shadow: 0 0 0 0 rgba(139, 61, 255, 0.7);
+  -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 300ms ease-in-out;
+}
+
+.pulse-button:hover {
+  -webkit-animation: none  -webkit-animation: none;
+  -moz-animation: none;
+  -ms-animation: none;
+  animation: none;
+}
+
+@-webkit-keyframes pulsing {
+  to {
+    box-shadow: 0 0 0 15px rgba(139, 61, 255, 0);
+  }
+}
+
+@-moz-keyframes pulsing {
+  to {
+    box-shadow: 0 0 0 15px rgba(139, 61, 255, 0);
+  }
+}
+
+@-ms-keyframes pulsing {
+  to {
+    box-shadow: 0 0 0 15px rgba(139, 61, 255, 0);
+  }
+}
+
+@keyframes pulsing {
+  to {
+    box-shadow: 0 0 0 15px rgba(139, 61, 255, 0);
   }
 }

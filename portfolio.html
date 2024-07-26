@@ -49,10 +49,10 @@
             <div>
                <div>
                   <ul>
-                    <li><a href="/">Domov</a></li>
-                    <li><a href="/about.html">O mne</a></li>
-                    <li><a href="/portfolio.html">Portfólio</a></li>
-                    <li><a href="/contact.html">Kontakt</a></li>
+                     <li><a href="/">Domov</a></li>
+                     <li><a href="/about.html">O mne</a></li>
+                     <li><a href="/portfolio.html">Portfólio</a></li>
+                     <li><a href="/contact.html">Kontakt</a></li>
                   </ul>
                </div>
             </div>
@@ -60,84 +60,84 @@
       </div>
    </nav>
 
-<!-- Content Main -->
+   <!-- Content Main -->
    <div id="ravi-work" class="ravi-bg-color">
-    <div class="container">
-       <div class="row animate-box">
-          <div class="col-md-8 col-md-offset-2 text-center ravi-heading">
-             <h2>Portfólio</h2>
-             <div class="blockquote-wrapper">
-                <div class="blockquote">
-                   <h1>
-                      Creativity is contagious. Pass it on.
-                   </h1>
-                   <h4>&mdash;Albert Einstein</h4>
-                </div>
-             </div>
- 
-          </div>
-      </div>
- 
-       <!-- Tabs Categories -->
-       <div class="row portfolio-bar animate-box">
-          <button class="portfolio-tab active-category" onclick="openCategory(event,'ALL')">
-             <span>
-                Všetko
-             </span>
-          </button>
-          <button class="portfolio-tab" onclick="openCategory(event,'ILLUSTRATION')">
-             <span>
-                Ilustrácie
-             </span>
-          </button>
-          <button class="portfolio-tab" onclick="openCategory(event,'BRANDS')">
-             <span>
-                Brands
-             </span>
-          </button>
-          <button class="portfolio-tab" onclick="openCategory(event,'PHOTO EDITING')">
-             <span>
-                Úprava fotiek
-             </span>
-          </button>
-          <!-- TODO : -->
-          <!-- <button class="portfolio-tab " onclick="openCategory(event,'SOCIALS')">
+      <div class="container">
+         <div class="row animate-box">
+            <div class="col-md-8 col-md-offset-2 text-center ravi-heading">
+               <h2>Portfólio</h2>
+               <div class="blockquote-wrapper">
+                  <div class="blockquote">
+                     <h1>
+                        Creativity is contagious. Pass it on.
+                     </h1>
+                     <h4>&mdash;Albert Einstein</h4>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+
+         <!-- Tabs Categories -->
+         <div class="row portfolio-bar animate-box">
+            <button class="portfolio-tab active-category" onclick="openCategory(event,'ALL')">
+               <span>
+                  Všetko
+               </span>
+            </button>
+            <button class="portfolio-tab" onclick="openCategory(event,'ILLUSTRATION')">
+               <span>
+                  Ilustrácie
+               </span>
+            </button>
+            <button class="portfolio-tab" onclick="openCategory(event,'BRANDS')">
+               <span>
+                  Brands
+               </span>
+            </button>
+            <button class="portfolio-tab" onclick="openCategory(event,'PHOTO EDITING')">
+               <span>
+                  Úprava fotiek
+               </span>
+            </button>
+            <!-- TODO : -->
+            <!-- <button class="portfolio-tab " onclick="openCategory(event,'SOCIALS')">
             <span>
                Socials
             </span>
          </button> -->
-       </div>
- 
-       <!-- TODO : Refactor Redundant CODE -->
- 
-       <!-- NOTE : ALL -->
-       <div id="portfolio_container">
- 
-          <div id="portfolio_all" class="row work-category animate__animated animate__fadeInUp animated-fast"
-             style="display:block">
-          </div>
- 
-          <div id="portfolio_logos" class="row work-category animate__animated animate__fadeInUp animated-fast "
-          style="display:none">
+         </div>
 
-                 <!-- NOTE : Illustration-->
-       <div id="portfolio_illustration" class="row work-category animate__animated animate__fadeInUp animated-fast"
-       style="display:none">
+         <!-- TODO : Refactor Redundant CODE -->
 
-    </div>
+         <!-- NOTE : ALL -->
+         <div id="portfolio_container">
 
-    <!-- NOTE : Photo Editing -->
-    <div id="portfolio_photo_editing" class="row work-category animate__animated animate__fadeInUp animated-fast"
-       style="display:none">
+            <div id="portfolio_all" class="row work-category animate__animated animate__fadeInUp animated-fast"
+               style="display:block">
+            </div>
 
-    </div>
-       </div>
+            <div id="portfolio_logos" class="row work-category animate__animated animate__fadeInUp animated-fast "
+               style="display:none">
+
+               <!-- NOTE : Illustration-->
+               <div id="portfolio_illustration"
+                  class="row work-category animate__animated animate__fadeInUp animated-fast" style="display:none">
+
+               </div>
+
+               <!-- NOTE : Photo Editing -->
+               <div id="portfolio_photo_editing"
+                  class="row work-category animate__animated animate__fadeInUp animated-fast" style="display:none">
+
+               </div>
+            </div>
 
 
 
-       </div>
- 
-       <!-- <div id="ravi-started" class="ravi-bg-dark animate-box">
+         </div>
+
+         <!-- <div id="ravi-started" class="ravi-bg-dark animate-box">
           <div class="overlay"></div>
           <div class="container">
              <div class="row animate-box">
@@ -152,86 +152,87 @@
              </div>
           </div>
        </div> -->
- 
- 
-       <div id="ravi-started" class="ravi-bg-dark animate-box">
-          <div class="overlay"></div>
-          <div class="container">
-             <div class="row animate-box">
-                <div class="col-md-8 col-md-offset-2 text-center ravi-heading">
-                   <h2>Kontaktuj ma!</h2>
-                   <p>Ak sa ti zapáčila moja tvorba a zišla by sa ti pomoc pri tvorbe tvojho projektu, neváhaj ma
-                      kontaktovať.</p>
-                   <p style="margin-bottom: 0;"><a href="contact.html" class="btn btn-default btn-lg">Kontaktovať</a>
-                   </p>
-                </div>
-             </div>
-          </div>
-       </div>
- 
-       <script>
-       function openCategory(evt, category) {
-            var i, x, tablinks;
 
-            var items = document.getElementById("portfolio_all").children
 
-            for(let item of items){
-                item.classList.add("animate__animated")
-                item.classList.add("animate__fadeIn")
-                if(category == "ALL") {
-                    item.style.display = "block"
-                } else if (category == "ILLUSTRATION") {
-                    item.style.display = item.dataset.type == "ILLUSTRATION" ? "block" : "none"
-                } else if (category == "PHOTO EDITING") {
-                    item.style.display = item.dataset.type == "PHOTO EDITING" ? "block" : "none"
-                } else if (category == "BRANDS") {
-                    item.style.display = item.dataset.type == "BRANDS" ? "block" : "none"
-                } else {
-                    item.style.display = "none"
-                }
+         <div id="ravi-started" class="ravi-bg-dark animate-box">
+            <div class="overlay"></div>
+            <div class="container">
+               <div class="row animate-box">
+                  <div class="col-md-8 col-md-offset-2 text-center ravi-heading">
+                     <h2>Kontaktuj ma!</h2>
+                     <p>Ak sa ti zapáčila moja tvorba a zišla by sa ti pomoc pri tvorbe tvojho projektu, neváhaj ma
+                        kontaktovať.</p>
+                     <p style="margin-bottom: 0;"><a href="contact.html" class="btn btn-default btn-lg">Kontaktovať</a>
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <script>
+            function openCategory(evt, category) {
+               var i, x, tablinks;
+
+               var items = document.getElementById("portfolio_all").children
+
+               for (let item of items) {
+                  item.classList.add("animate__animated")
+                  item.classList.add("animate__fadeIn")
+                  if (category == "ALL") {
+                     item.style.display = "block"
+                  } else if (category == "ILLUSTRATION") {
+                     item.style.display = item.dataset.type == "ILLUSTRATION" ? "block" : "none"
+                  } else if (category == "PHOTO EDITING") {
+                     item.style.display = item.dataset.type == "PHOTO EDITING" ? "block" : "none"
+                  } else if (category == "BRANDS") {
+                     item.style.display = item.dataset.type == "BRANDS" ? "block" : "none"
+                  } else {
+                     item.style.display = "none"
+                  }
+               }
+
+               tablinks = document.querySelectorAll(".portfolio-tab");
+               for (i = 0; i < tablinks.length; i++) {
+                  tablinks[i].classList.remove("active-category")
+               }
+               evt.currentTarget.className += " active-category";
             }
+         </script>
+      </div>
 
-            tablinks = document.querySelectorAll(".portfolio-tab");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].classList.remove("active-category")
-            }
-            evt.currentTarget.className += " active-category";
-       }
-       </script>
-    </div>
+      <div id="ravi-footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <p>Prípravné materiály, vizuály a nákresy vrátane všetkých elektronických súborov použitých na
+                     vytvorenie
+                     každého projektu sú výhradným duševným vlastníctvom Radharani Jaslovskej</p>
+                  <p>&copy; 2023 All Rights Reserved
+               </div>
+            </div>
+         </div>
+      </div>
 
-    <div id="ravi-footer">
-        <div class="container">
-           <div class="row">
-              <div class="col-md-12">
-                 <p>Prípravné materiály, vizuály a nákresy vrátane všetkých elektronických súborov použitých na vytvorenie
-                    každého projektu sú výhradným duševným vlastníctvom Radharani Jaslovskej</p>
-                 <p>&copy; 2023 All Rights Reserved
-              </div>
-           </div>
-        </div>
-     </div>
- 
-    <div class="gototop js-top">
-       <a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
-    </div>
- 
-    <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
-    <!-- jQuery Easing -->
-    <script src="js/jquery.easing.1.3.js"></script>
-    <!-- Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Waypoints -->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <!-- Stellar Parallax -->
-    <script src="js/jquery.stellar.min.js"></script>
-    <!-- Main -->
-    <script src="js/main.js"></script>
-    <!-- Fetching data -->
-     <script>
+      <div class="gototop js-top">
+         <a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+      </div>
 
-        function displayItem(item) {
+      <!-- jQuery -->
+      <script src="js/jquery.min.js"></script>
+      <!-- jQuery Easing -->
+      <script src="js/jquery.easing.1.3.js"></script>
+      <!-- Bootstrap -->
+      <script src="js/bootstrap.min.js"></script>
+      <!-- Waypoints -->
+      <script src="js/jquery.waypoints.min.js"></script>
+      <!-- Stellar Parallax -->
+      <script src="js/jquery.stellar.min.js"></script>
+      <!-- Main -->
+      <script src="js/main.js"></script>
+      <!-- Fetching data -->
+      <script>
+
+         function displayItem(item) {
             return `
                     <div class='col-md-4 col-lg-3 col-sm-6 text-center col-padding ' data-type='${item.type}'>
                         <a href='/project/${item.id}.html' class='work'
@@ -239,39 +240,47 @@
                             <div class='desc'>
                                 <h3>${item.title}</h3>
                                 <span>${item.type}</span>
+                                <button class="btn btn-default">Viac info</button>
                             </div>
                         </a>
                     </div>
                     `
-        }
+         }
 
-        function containerItems(data, category) {
+         function displayProjects(data) {
+            const containerAll = document.getElementById('portfolio_all');
             let htmlContent = ``;
-                data.forEach(item =>{
-                    if(category == "all"){
-                        htmlContent += displayItem(item);
-                    } else if(category == item.type) {
-                        htmlContent += displayItem(item);
-                    }
-                });
-            return htmlContent
-        }
+            data.forEach(item => {
+               htmlContent += displayItem(item);
 
-        document.addEventListener('DOMContentLoaded', function () {
-            fetch('data/data.json')
-                .then(response => response.json())
-                .then(data => {
-                    const containerAll = document.getElementById('portfolio_all');
-                    let allItems = containerItems(data, "all")
-                    containerAll.innerHTML = allItems
+            });
+            containerAll.innerHTML = htmlContent
+
+         }
+
+         document.addEventListener('DOMContentLoaded', function () {
+
+            const projectsKey = "projectsData";
+            const cachedProjects = localStorage.getItem(projectsKey)
+
+            if (cachedProjects) {
+               displayProjects(JSON.parse(cachedProjects));
+            } else {
+
+               fetch('data/data.json')
+                  .then(response => response.json())
+                  .then(data => {
+                     localStorage.setItem(projectsKey, JSON.stringify(data))
+                     displayProjects(data)
+                  })
+                  .catch(error => console.error('Error fetching data:', error));
+            }
 
 
-                })
-                .catch(error => console.error('Error fetching data:', error));
-        });
-     </script>
- 
- 
-    </body>
- 
-    </html>
+         });
+      </script>
+
+
+</body>
+
+</html>

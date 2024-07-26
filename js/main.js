@@ -22,6 +22,20 @@
       },
    };
 
+   const scrollBtn = document.querySelector(".scroll")
+   
+   if(scrollBtn) {
+      scrollBtn.style.cursor = "pointer"
+      scrollBtn.addEventListener("click", function() {
+         window.scrollTo({
+            top: window.innerHeight,
+            behavior: 'smooth' // This makes the scroll smooth
+         });
+      })
+   } else {
+      console.error('The scrollButton element is not found.');
+   }
+
    var fullHeight = function () {
       if (!isMobile.any()) {
          $(".js-fullheight").css("height", $(window).height());

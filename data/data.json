@@ -263,7 +263,15 @@
                 { "src": "../assets/work/mori/brand vizual/manuál značky.jpg", "caption": "" },
                 { "src": "../assets/work/mori/brand vizual/manuál značky(1).jpg", "caption": "" }
              ]
-          }
+          },
+          {
+            "title": "Balenie",
+            "imgs": [
+               { "src": "../assets/work/mori/balenie/krabica z boku.jpg", "caption": "" },
+               { "src": "../assets/work/mori/balenie/krabica zhora.jpg", "caption": "" },
+               { "src": "../assets/work/mori/balenie/krabička na mori.jpg", "caption": "" }
+            ]
+         }
        ]
     },
     {

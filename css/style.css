@@ -2738,6 +2738,18 @@ input[type="text"] {
   border: 4px solid var(--secondary-color-hover);
 }
 
+@media screen and (max-width: 1199px) {
+  .scroll {
+    bottom: -5%
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .scroll {
+    bottom: 0
+  }
+}
+
 @media screen and (max-width: 768px) {
   .scroll {
     display: none;

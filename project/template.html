@@ -2,15 +2,227 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>
+            Project | Rani Designs </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Portfolio of Rani, Graphic Designer and Social Content Creator" />
+        <meta name="keywords" content="graphic designer creator illustration illustrator photoshop" />
+        <meta name="author" content="Viet Le" />
+        <!-- Google FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="/css/animate.css">
+        <!-- Icomoon Icon Fonts-->
+        <link rel="stylesheet" href="/css/icomoon.css">
+        <!-- Bootstrap  -->
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <!-- Theme style  -->
+        <link rel="stylesheet" href="/css/style.css?1721926668">
+        <!-- Modernizr JS -->
+        <script src="js/modernizr-2.6.2.min.js"></script>
+        <!-- light gallery style  -->
+        <link type="text/css" rel="stylesheet" href="../css/lightgallery-bundle.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <script src="https://kit.fontawesome.com/593b35a6cd.js" crossorigin="anonymous"></script>
+        <script src="../js/template_gen.js"></script>
+        <script>
+            function getIdParam() {
+                const urlParams = new URLSearchParams(window.location.search);
+                return urlParams.get('id');
+            }
+
+            function findId() {
+                const id = getIdParam();
+                const output = document.getElementById('output');
+                return id ? id : -1
+            }
+
+            function findProjectById(id, projects) {
+
+                const project = projects.filter((item) => item.id == id)[0]
+
+                // No project with ID project
+                if (!project) {
+                    window.location.href = "http://127.0.0.1:5500/404.html";
+                    return
+                }
+
+                localStorage.setItem("project", JSON.stringify(project))
+                document.title = `${project.title} | Rani Designs`
+                return project
+            }
+
+            // Get Data from cache
+            document.addEventListener('DOMContentLoaded', function () {
+
+                const id = findId()
+
+                // redirect if no ID
+                if (id == -1) {
+                    window.location.href = "http://127.0.0.1:5500/404.html";
+                    return
+                }
+
+                const projectsKey = "projectsData";
+                const cachedProjects = localStorage.getItem(projectsKey)
+
+                if (cachedProjects) {
+                    const project = findProjectById(id, JSON.parse(cachedProjects))
+                    displayTemplate(project)
+                } else {
+                    fetch('../data/data.json')
+                        .then(response => response.json())
+                        .then(data => {
+                            localStorage.setItem(projectsKey, JSON.stringify(data))
+                            const project = findProjectById(id, data)
+                            displayTemplate(project)
+                        })
+                        .catch(error => console.error('Error fetching data:', error));
+                }
+
+            });
+        </script>
+    </head>
+
 </head>
 
 <body>
-    <script>
+    <!-- Loader -->
+    <div class="ravi-loader"></div>
 
+    <!-- Nav Bar -->
+    <nav>
+        <div class="logo-container">
+            <a href="/">
+                <img class="logo" src="../images/logo/rani4.png" alt="logo">
+            </a>
+        </div>
+
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger">
+                <div class=""></div>
+            </div>
+            <div class="menu">
+                <div>
+                    <div>
+                        <ul>
+                            <li><a href="/">Domov</a></li>
+                            <li><a href="/about.html">O mne</a></li>
+                            <li><a href="/portfolio.html">Portfólio</a></li>
+                            <li><a href="/contact.html">Kontakt</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="body"></div>
+
+    <div id="ravi-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Prípravné materiály, vizuály a nákresy vrátane všetkých elektronických súborov použitých na
+                        vytvorenie
+                        každého projektu sú výhradným duševným vlastníctvom Radharani Jaslovskej</p>
+                    <p>&copy; 2024 All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gototop js-top">
+        <a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="../js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="../js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="../js/jquery.waypoints.min.js"></script>
+    <!-- Stellar Parallax -->
+    <script src="../js/jquery.stellar.min.js"></script>
+    <!-- Light gallery -->
+    <script src="../js/lightgallery.min.js"></script>
+    <script src="../js/plugins/thumbnail/lg-thumbnail.min.js"></script>
+    <script src="../js/plugins/zoom//lg-zoom.min.js"></script>
+    <!-- Main -->
+    <script src="../js/main.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+            const scrollBtn = document.querySelector(".scroll")
+
+            if (scrollBtn) {
+                scrollBtn.style.cursor = "pointer"
+                scrollBtn.addEventListener("click", function () {
+                    window.scrollTo({
+                        top: window.innerHeight,
+                        behavior: 'smooth' // This makes the scroll smooth
+                    });
+                })
+            } else {
+                console.error('The scrollButton element is not found.');
+            }
+
+            let galleries = document.querySelectorAll(".animated-thumbnails-gallery")
+
+            // Initiate all galeries on page
+            for (let gallery of galleries) {
+                lightGallery(gallery, {
+                    thumbnail: true,
+                    plugins: [lgZoom, lgThumbnail],
+                    selector: '.gallery-item',
+                });
+            }
+            const container = document.querySelector(".sld-container")
+            if (container) {
+                document.querySelector(".sld-slider").addEventListener("input", (e) => {
+                    container.style.setProperty("--position", `${e.target.value}%`)
+                })
+            }
+        })
     </script>
+    <script>
+        function displayTemplate(project) {
+            console.log(project);
+            let template = ""
+            console.log(project.template);
+            switch (project.template) {
+                case "2":
+                    template = genTemplate2(project)
+                    break;
+                case "3":
+                    template = genTemplate3(project)
+                    break;
+                case "5":
+                    template = genTemplate5(project)
+                    break;
+                case "6":
+                    template = genTemplate6(project)
+                    break;
+            }
+            console.log(template);
+            let container = document.querySelector("#body")
+
+            container.innerHTML = template
+        }
+    </script>
+
 </body>
+
 
 </html>
